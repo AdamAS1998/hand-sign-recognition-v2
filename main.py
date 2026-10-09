@@ -3,6 +3,9 @@ import time
 
 import cv2
 
+from src.feature_extractor import FeatureExtractor
+import numpy as np
+
 from src.camera import Camera
 from src.hand_tracker import HandTracker
 
@@ -72,6 +75,7 @@ def main():
 
             result = tracker.detect(frame, timestamp_ms)
 
+            
             draw_landmarks(
                 frame,
                 result.hand_landmarks
