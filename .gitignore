@@ -27,9 +27,6 @@ ENV/
 *~
 
 
-# Trained machine learning models
-models/
-
 # Testing and coverage
 .pytest_cache/
 .coverage
