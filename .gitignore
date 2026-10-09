@@ -26,8 +26,6 @@ ENV/
 *.swo
 *~
 
-# Training datasets and collected samples
-data/
 
 # Trained machine learning models
 models/
